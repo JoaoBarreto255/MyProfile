@@ -216,10 +216,10 @@ return [
     */
 
     'meta' => [
-        // Meta::name('author', 'Mr. Hyde'),
+         Meta::name('author', 'João Barreto'),
         // Meta::name('twitter:creator', '@HydeFramework'),
-        // Meta::name('description', 'My Hyde Blog'),
-        // Meta::name('keywords', 'Static Sites, Blogs, Documentation'),
+        Meta::name('description', 'My Static Blog!'),
+        Meta::name('keywords', 'Static Sites, Blogs, Profissional Profiles, PHP Developers'),
         Meta::name('generator', 'HydePHP v'.Hyde\Hyde::version()),
         Meta::property('site_name', env('SITE_NAME', 'HydePHP')),
         Meta::link('stylesheet', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/v6.5.2/css/all.min.css'),
