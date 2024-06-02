@@ -216,7 +216,7 @@ return [
     */
 
     'meta' => [
-         Meta::name('author', 'João Barreto'),
+        Meta::name('author', 'João Barreto'),
         // Meta::name('twitter:creator', '@HydeFramework'),
         Meta::name('description', 'My Static Blog!'),
         Meta::name('keywords', 'Static Sites, Blogs, Profissional Profiles, PHP Developers'),
