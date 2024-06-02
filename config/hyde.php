@@ -222,6 +222,7 @@ return [
         // Meta::name('keywords', 'Static Sites, Blogs, Documentation'),
         Meta::name('generator', 'HydePHP v'.Hyde\Hyde::version()),
         Meta::property('site_name', env('SITE_NAME', 'HydePHP')),
+        Meta::link('stylesheet', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/v6.5.2/css/all.min.css'),
     ],
 
     /*

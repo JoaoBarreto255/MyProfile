@@ -1,3 +1,0 @@
-
-
-## Outras ferramentas:

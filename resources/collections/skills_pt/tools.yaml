@@ -1,0 +1,51 @@
+---
+title: "ToolBox"
+data:
+  PHP:
+    version: "7.4+"
+    url: "https://www.php.net/"
+    data:
+      Symfony:
+        url: "https://symfony.com/"
+        icon:
+          src: "media/symfony.svg"
+          font:
+            name: "IconScout"
+            page: "https://iconscout.com"
+          author:
+            name: "Icon Mafia"
+            page: "https://iconscout.com/contributors/icon-mafia"
+      Graphqlite:
+        url: "https://graphqlite.thecodingmachine.io/docs"
+        icon:
+          src: "https://graphqlite.thecodingmachine.io/img/logo.svg"
+          font:
+            name: "Graphqlite"
+            page: "https://graphqlite.thecodingmachine.io/docs"
+          author: null
+      Rector:
+        url: "https://getrector.com/"
+        icon:
+          src: "https://getrector.com/assets/images/logo/rector-white.svg"
+          font:
+            name: "Rector"
+            page: "https://getrector.com/"
+          author: null
+      Composer:
+        url: "https://getcomposer.org/"
+        icon:
+          src: "https://getcomposer.org/img/logo-composer-transparent2.png"
+          font:
+            name: "Composer"
+            page: "https://getcomposer.com/"
+          author: null
+      PHPUnit:
+        url: "https://phpunit.de/index.html"
+        icon:
+          src: "https://phpunit.de/img/phpunit.svg"
+          font:
+            name: "PHPUnit"
+            page: "https://phpunit.de/index.html"
+          author: null
+---
+#Comentário
