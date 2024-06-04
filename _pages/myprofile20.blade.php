@@ -35,18 +35,28 @@ $title = "Profile Profissional";
     @foreach(DataCollections::yaml('skills_pt') as $skill)
         <hr>
         <div class="flex flex-col font-sans mt-3">
-            <h1 class="text-center text-3xl font-bold">{{ $skill->title }}</h1>
+            <h1 class="text-center text-3xl font-bold my-5">{{ $skill->title }}</h1>
             @foreach($skill->data as $name => $skill_info)
-            <div>
-                <h1 class="text-center text-2xl font-bold"> {{ $name }} {{ $skill_info['version'] ?? '' }} </h1>
+            <div class="flex flex-col bg-slate-100 basis-8/10 rounded rounded-md border-slate-200">
+                <h1 class="text-center text-2xl font-bold px-10 py-9"> {{ $name }} {{ $skill_info['version'] ?? '' }} </h1>
+                <hr>
+                <div class="flex md:flex-row md:flex-wrap flex-col px-10 py-9">
                 @foreach($skill_info['data'] as $tool_name => $tool_data)
-                <a class="flex flex-row align-center text-justify-center" href="{{ $tool_data['url'] }}">
-                    @if(isset($tool_data['icon']['src']))
-                    <img src="{{ $tool_data['icon']['src'] }}" style="min-height: 25px; max-width: 50px;"></img>
-                    @endif
-                    <h4>{{ $tool_name }}</h4>
-                </a>
+                <div class="md:basis-1/2 basis-1 md:p-3 px-0 py-1">
+                    <a class="flex flex-row align-center text-justify-center bg-slate-200 rounded rounded-sm border border-slate-300" href="{{ $tool_data['url'] }}">
+                        @if(isset($tool_data['icon']['src']))
+                        <div class="flex justify-center p-4 basis-1/6">
+                            <img class="size-16" src="{{ $tool_data['icon']['src'] }}">
+                            </img>
+                        </div>
+                        @endif
+                        <div class="flex flex-col justify-center p-4">
+                            <h4 class="text-xl">{{ $tool_name }}</h4>
+                        </div>
+                    </a>
+                </div>
                 @endforeach
+                </div>
             </div>
             @endforeach
        </div>

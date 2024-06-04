@@ -1,5 +1,5 @@
 ---
-title: "ToolBox"
+title: "Áreas de atuação"
 data:
   PHP:
     version: "7.4+"
@@ -23,14 +23,14 @@ data:
             name: "Graphqlite"
             page: "https://graphqlite.thecodingmachine.io/docs"
           author: null
-      Rector:
-        url: "https://getrector.com/"
-        icon:
-          src: "https://getrector.com/assets/images/logo/rector-white.svg"
-          font:
-            name: "Rector"
-            page: "https://getrector.com/"
-          author: null
+#      Rector:
+#        url: "https://getrector.com/"
+#        icon:
+#          src: "https://getrector.com/assets/images/logo/rector-white.svg"
+#          font:
+#            name: "Rector"
+#            page: "https://getrector.com/"
+#          author: null
       Composer:
         url: "https://getcomposer.org/"
         icon:
